@@ -81,7 +81,7 @@ install_requirements () {
 	pip install paste
 	pip install pastedeploy
 	pip install PasteScript==1.7.5
-	pip install -r requirements.txt -e .
+	pip install -r requirements.txt -e . --allow-external argparse
 	pip install psycopg2
 }
 
